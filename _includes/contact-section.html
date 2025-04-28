@@ -1,0 +1,71 @@
+{% if site.data.content.contact-section.exist %}
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h2 class="section-heading">{{ site.data.content.contact-section.title }}</h2>
+                <hr class="primary">
+                <p>{{ site.data.content.contact-section.content }}</p>
+            </div>
+    </div>
+
+    <div class="container">
+        {% assign services = site.data.content.contact-section.objects %}
+        {% assign items_per_row = 6 %}
+        {% assign total_items = services.size %}
+        {% assign row_modulator = total_items | modulo: items_per_row %}
+        {% assign remaining = total_items %}
+        {% assign items_counter = 0 %}
+    
+        {% assign services_array = services | values %}
+    
+        
+        <div class="row justify-content-center">
+        {% for item in services %}
+            {% capture wowcounter %}{{ wowcounter | plus:1 }}{% endcapture %}
+    
+            {% for item in services_array %}
+            {% assign index = forloop.index0 %}
+            {% endfor %}
+    
+            {% assign items_left = total_items | minus: index %}
+    
+            {% assign remaining = remaining | minus: 1 %}
+            {% assign items_counter = items_counter | plus: 1 %}
+    
+    
+            {% if remaining < row_modulator %}
+                {% if remaining <= 5 and row_modulator == 5 %}
+                    {% assign even_or_odd = remaining | modulo: 2 %}
+                    {% if even_or_odd == 0 %}
+                        {% assign col_class = 'col-lg-2 col-md-2' %}
+                    {% else %}
+                        {% assign col_class = 'col-lg-3 col-md-3' %}
+                    {% endif %}
+                {% else %}
+                    {% assign col_width = 12 | divided_by: row_modulator %}
+                    {% assign col_class = 'col-lg-' | append: col_width | append: ' col-md-' | append: col_width %}
+                {% endif %}
+            {% else %}
+                {% assign col_class = 'col-lg-2 col-md-2' %}  
+            {% endif %}
+            
+            <div class="{{ col_class }} text-center">
+              <div class="service-box">
+                <i class="{{ item[1].icon }}" style="font-size: 2.8em;"></i>
+                <h3>{{ item[1].title }}</h3>
+                <a id="contact-link" href="{{ item[1].link }}" class="text-muted">{{ item[1].content }}</a>
+              </div>
+            </div>
+    
+            {% assign mod = items_counter | modulo: items_per_row %}
+            {% if mod == 0 %}
+              </div>
+              <div class="row justify-content-center" style="margin-bottom: 10px;">
+            {% endif %}
+            
+        {% endfor %}
+        </div>
+      </div>
+</section>
+{% endif %}

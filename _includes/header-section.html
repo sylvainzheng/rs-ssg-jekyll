@@ -1,0 +1,15 @@
+{% if site.data.content.header-section.header-exist %}
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+            <img src="img/axone_white.png" style="object-fit: contain; width: 100%; max-width: 2000vw; height: auto; margin-bottom: 0vw;">
+            <hr>
+            <!--<p>{{ site.data.content.header-section.header-content }}</p>-->
+            <p> 
+                {{ site.data.content.header-section.header-content }}  
+            </p>
+            <a href="#form" class="btn btn-primary btn-xl page-scroll">Request a service</a>
+        </div>
+    </div>
+</header>
+{% endif %}

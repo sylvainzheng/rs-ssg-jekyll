@@ -1,0 +1,54 @@
+<div class="bg-dark" style="z-index: 200;">
+<section id="form">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Request a service</h2>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <form action="https://formspree.io/f/mrbpvbja" method="POST" id="contact-form">
+            <div class="row text-center">
+                <div class="col-lg-6 col-md-8 text-center">
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" value="" class="form-control"><br>
+                </div>
+                <div class="col-lg-6 col-md-8 text-center">
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" value="" class="form-control"><br>
+                </div>
+
+                <div class="col-lg-12 col-md-4 text-center">
+                    <label for="mailadr">E-mail:</label><br>
+                    <input type="email" id="email" name="email" value="" class="form-control"><br>
+            
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" class="form-control" style="height: 75px;"></textarea><br>
+            
+                    <input type="submit" value="Submit" class="btn btn-primary">
+                </div>
+                <div class="row" id="status"></div>
+            </div>
+        </form>
+        <button id="formTextAreaButton" onclick="formTextAreaMultiline()" class="btn btn-primary">Expand Form</button>
+    </div>
+
+    <script>
+      function formTextAreaMultiline() {
+        var textArea = document.getElementById("message");
+        var formTextAreaButton = document.getElementById("formTextAreaButton");
+
+        if (textArea.style.height != "300px") {
+          textArea.style.height = "300px";
+          formTextAreaButton.innerHTML = "Reduce Form";
+        }
+        else {
+          textArea.style.height = "75px";
+          formTextAreaButton.innerHTML = "Expand Form";
+        }
+      }
+    </script>  
+</section>
+</div>
