@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="{{ page.lang | default: 'en' }}">
 {% include head.html %}
 
 <body id="page-top">
   {% include nav.html %}
-  {% include header-section.html %}
-  {% include about-section.html %}
-  {% include webdevelopment-section.html %}
-  {% include trademark-section.html %}
-  {% include projects-section.html %}
+  {% include header.html %}
+  {% include about.html %}
+  {% include webdevelopment.html %}
+  {% include trademark.html %}
+  {% include projects.html %}
   {% include form.html %}
-  {% include contact-section.html %}
+  {% include contact.html %}
   {% include scripts.html %}
+  {% include language-switcher.html %}
 </body>
-
 </html>

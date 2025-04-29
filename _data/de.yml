@@ -1,6 +1,7 @@
 ---
 title: Axone
 nav-image-light: "/img/axone_black.png"
+lang: 'de'
 
 nav:
 - title: "Wir über uns"
@@ -21,45 +22,41 @@ header-section:
 
 about-section: 
   exist: true
-  about-title: À propos
-  about-content: Positionnée sur un segment de marché ciblé, Axone se distingue par son extrême flexibilité, notre société trouve toujours la solution informatique que vous recherchez et peut vous la fournir en allemand, français, italien, anglais et espagnol.
+  about-title: Über uns
+  about-content: Axone ist ein äusserst flexibler Nischenbetrieb, der immer die passende Informatiklösung findet und diese auch gleich noch auf Deutsch, Französisch, Italienisch, Englisch und Spanisch.
 
 services-section:
   web-development:
-    title: 'Nos services de développement web'
+    title: 'Webentwicklung'
     exist: true
     # Vous pouvez ajouter autant de colonnes que possible tant qu'ils sont nommés avec leur sections respectives
     objects:
       col-1:
         icon: 'fa fa-4x fa-solid fa-code'
-        title: 'Web application'
+        title: 'Web-basierte Anwendungen'
         content: >
-          Our web solutions are tailor-made to provide you with all the tools indispensable 
-          for the fulfilment of your projects. We propose evolutionary and user-friendly applications, 
-          which we take care to adapt according to your needs.
+          Wir stimmen unsere Lösungen so auf Sie ab, dass Sie Ihre Projekte effizient realisieren können. Wir bieten flexible und benutzerfreundliche Anwendungen an, die wir auf Ihre Bedürfnisse zuschneiden.
       col-2:
         icon: 'fa fa-4x fa-regular fa-paper-plane'
         title: 'Content management'
         content: >
-          The creation of your visual identity, the development of functionalities related to your website, 
-          implementation of a content management tool so as to ensure complete autonomy and our advice for optimal referencing of your website, 
-          are all key stages in the creation of an effective and dynamic website.
+          Zu den Eckpfeilern einer überzeugenden und dynamischen Webseiten gehören Ihre Visual Identity, die Entwicklung der für Sie wichtigen Funktionalitäten, die Implementierung eines Content Management Tools im Hinblick auf eine autonome Verwaltung und die Beratung für eine optimale Referenzierung.
       col-3:
         icon: 'fa fa-4x fa-solid fa-laptop'
-        title: 'Web development'
-        content: 'Axone also makes available to you personalized hosting solutions as well as providing advice on management of your domain names.'
+        title: 'Webentwicklung'
+        content: Axone stellt Ihnen auch zuverlässige Hosting-Lösungen zur Verfügung und berät Sie für das Management Ihrer Domain Names.
         
   trademark:
-    title: 'Trademark protection services'
+    title: 'Marken'
     exist: true
     objects:
       col-1:
         icon: 'fa fa-4x fa-solid fa-globe '
-        title: 'Register a domain name'
+        title: 'Einen Domainnamen registrieren'
         content: ''
       col-2:
         icon: 'fa fa-4x fa-solid fa-shield '
-        title: 'New TLDs'
+        title: 'Neu TLDs'
         content: ''
 
 projects-section:
@@ -95,15 +92,19 @@ projects-section:
       
 form-section:
   exist: true
-  title: Request a service
+  title: Eine Dienstleistung anfordern
+  fname: 'Vorname'
+  lname: 'Nachname'
+  email: 'E-mail'
+  message: 'Nachricht'
 
 contact-section:
   exist: true
   title: 'Contact us'
   content: >
-    Ready to start your next project with us? That's great! 
-    Give us a call or send us an email 
-    and we will get back to you as soon as possible!
+    Bereit, Ihr nächstes Projekt mit uns zu starten? Super!
+    Rufen Sie uns an oder schreiben Sie uns eine E-Mail
+    Wir melden uns schnellstmöglich bei Ihnen!
   objects:
     col-1:
       icon: 'fa fa-solid fa-phone'

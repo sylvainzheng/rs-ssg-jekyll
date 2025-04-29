@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.default_lang }}">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ site.data.content[page.lang].title }}</title>
+</head>
+<body>
+    {% include language-switcher.html %}
+    
+    <header>
+        <img src="{{ site.data.content[page.lang].nav-image-light }}" alt="{{ site.data.content[page.lang].title }}">
+        
+        {% if site.data.content[page.lang].header-section.header-exist %}
+        <div class="header-content">
+            <p>{{ site.data.content[page.lang].header-section.header-content }}</p>
+            <button>{{ site.data.content[page.lang].header-section.header-button }}</button>
+        </div>
+        {% endif %}
+    </header>
+    
+    {{ content }}
+</body>
+</html>

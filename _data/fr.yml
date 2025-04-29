@@ -1,0 +1,127 @@
+title: Axone
+nav-image-light: "/img/axone_black.png"
+lang: 'fr'
+
+nav:
+- title: "À propos"
+  url: "about"
+- title: "Développement web"
+  url: "webdevelopment-section"
+- title: "Protection de marque"
+  url: "trademark-section"
+- title: "Projets"
+  url: "projects"
+- title: "Contact"
+  url: "contact"
+
+header-section:
+  header-exist: true
+  header-content: Les services d'Axone s'intègrent à vos processus de communication et vous aident à transmettre le bon message à votre public.
+  header-button: Demander un service
+
+about-section:
+  exist: true
+  about-title: À propos
+  about-content: Positionnée sur un segment de marché ciblé, Axone se distingue par son extrême flexibilité, notre société trouve toujours la solution informatique que vous recherchez et peut vous la fournir en allemand, français, italien, anglais et espagnol.
+
+services-section:
+  web-development:
+    title: 'Nos services de développement web'
+    exist: true
+    # Vous pouvez ajouter autant de colonnes que possible tant qu'ils sont nommés avec leur sections respectives
+    objects:
+      col-1:
+        icon: 'fa fa-4x fa-solid fa-code'
+        title: 'Application web'
+        content: >
+          Nos solutions web sont créées sur mesure afin de vous fournir tous les outils indispensables à la réalisation de vos projets. Nous vous proposons des applications évolutives et conviviales, que nous prenons soin d’adapter dans le respect de vos besoins.
+      col-2:
+        icon: 'fa fa-4x fa-regular fa-paper-plane'
+        title: 'Gestion de contenu'
+        content: >
+          La création de votre identité visuelle, le développement des fonctionnalités liées à votre site web, l’implémentation d’un outil de gestion de vos contenus pour l’assurance d’une parfaite autonomie, ainsi que nos conseils pour un référencement optimum de votre site Internet, sont autant d’étapes clés pour la création d’un site Internet performant et dynamique.
+      col-3:
+        icon: 'fa fa-4x fa-solid fa-laptop'
+        title: 'Développement web'
+        content: >
+          Axone met également à votre disposition des solutions d’hébergement personnalisées, ainsi que des prestations de conseil dans la gestion de vos noms de domaines.
+        
+  trademark:
+    title: 'Nos services de protection de marques'
+    exist: true
+    objects:
+      col-1:
+        icon: 'fa fa-4x fa-solid fa-globe '
+        title: 'Enregistrer un nom de domaine'
+        content: ''
+      col-2:
+        icon: 'fa fa-4x fa-solid fa-shield '
+        title: 'Nouveau TLDs'
+        content: ''
+
+projects-section:
+  exists: true
+  display-mode: "click/scroll/horizontal scroll/"
+  objects:
+    image-1:
+      source: "img/header.jpg"
+      url: ""
+      alt: ""
+      category: "A"
+      name: "AAAAA"
+    image-2:
+      source: "img/header.jpg"
+      url: ""
+      alt: ""
+      category: "A"
+      name: "BBBBB"
+    image-3:
+      source: "img/header.jpg"
+      url: ""
+      alt: ""
+      category: "A"
+      name: "CCCCC"
+    image-4:
+      source: "img/header.jpg"
+      url: ""
+      alt: ""
+      category: "A"
+      name: "CCCCC"
+
+
+      
+form-section:
+  exist: true
+  title: Demander un service
+  fname: 'Prénom'
+  lname: 'Nom'
+  email: 'Adresse mail'
+  message: 'Message'
+
+contact-section:
+  exist: true
+  title: 'Nous contacter'
+  content: >
+    Prêt à démarrer votre prochain projet avec nous ? Super !
+    Appelez-nous ou envoyez-nous un e-mail
+    et nous vous répondrons dans les plus brefs délais !
+  objects:
+    col-1:
+      icon: 'fa fa-solid fa-phone'
+      title: ''
+      link: 'tel:+41-22-312-5656'
+      content: '+41-22-312-5656'
+    col-2:
+      icon: 'fa fa-solid fa-envelope'
+      title: ''
+      link: 'mailto:info@axone.ch'
+      content: 'info@axone.ch'
+    col-3:
+      icon: 'fa fa-solid fa-compass'
+      title: ''
+      link: 'https://www.google.com/maps/place/Axone+Services+%26+D%C3%A9veloppement+SA/@46.201643,6.152335,17z/data=!3m1!4b1!4m6!3m5!1s0x478c653204a1ea2d:0xed79f17271a0188f!8m2!3d46.201643!4d6.152335!16s%2Fg%2F1tp2z8qb?entry=ttu&g_ep=EgoyMDI1MDQwOS4wIKXMDSoJLDEwMjExNDU1SAFQAw%3D%3D'
+      content: |
+        Axone SA<br>
+        2 Cours de Rive<br>
+        1204 Genève<br>               
+        Suisse
