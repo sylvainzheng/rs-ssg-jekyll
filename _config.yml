@@ -2,3 +2,4 @@ title: Axone Multilingual
 languages: ["en", "fr", "de"]
 default_language: "en"
 url: "http://localhost:4000"
+permalink: pretty
