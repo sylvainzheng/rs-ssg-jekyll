@@ -1,17 +1,20 @@
-{% if site.data.content.services-section.trademark.exist %}
+{% assign lang = include.language | default: page.lang | default: 'en' %}
+{% assign translations = site.data.content[lang] %}
+
+{% if translations.services-section.trademark.exist %}
 <!--Trademark protection services-->
 <section id="trademark-section">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">{{ site.data.content.services-section.trademark.title }}</h2>
+                <h2 class="section-heading">{{ translations.services-section.trademark.title }}</h2>
                 <hr class="primary">
             </div>
         </div>
     </div>
 
     <div class="container">
-        {% assign services = site.data.content.services-section.trademark.objects %}
+        {% assign services = translations.services-section.trademark.objects %}
         {% assign items_per_row = 3 %}
         {% assign total_items = services.size %}
         {% assign row_modulator = total_items | modulo: items_per_row %}
