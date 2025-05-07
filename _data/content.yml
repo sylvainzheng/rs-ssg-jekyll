@@ -11,10 +11,15 @@ en:
   nav:
     - title: "About"
       url: "about"
-    - title: "Services"
-      url: "services"
+    - title: "Web development"
+      url: "webdevelopment-section"
+    - title: "Trademark"
+      url: "trademark-section"
+    - title: "Projects"
+      url: "projects"
     - title: "Contact"
       url: "contact"
+      
   header-section:
     header-exist: true
     header-content: "Axone's services tie into your communications process..."
@@ -68,29 +73,29 @@ en:
           content: ''
 
   projects-section:
-    exists: true
+    exist: true
     display-mode: "click/scroll/horizontal scroll/"
     objects:
       image-1:
-        source: "img/header.jpg"
+        source: "/img/header.jpg"
         url: ""
         alt: ""
         category: "A"
         name: "AAAAA"
       image-2:
-        source: "img/header.jpg"
+        source: "/img/header.jpg"
         url: ""
         alt: ""
         category: "A"
         name: "BBBBB"
       image-3:
-        source: "img/header.jpg"
+        source: "/img/header.jpg"
         url: ""
         alt: ""
         category: "A"
         name: "CCCCC"
       image-4:
-        source: "img/header.jpg"
+        source: "/img/header.jpg"
         url: ""
         alt: ""
         category: "A"
@@ -147,8 +152,12 @@ fr:
   nav:
     - title: "À propos"
       url: "about"
-    - title: "Services"
-      url: "services"
+    - title: "Développement web"
+      url: "webdevelopment-section"
+    - title: "Trademark"
+      url: "Marques"
+    - title: "Projets"
+      url: "projects"
     - title: "Contact"
       url: "contact"
   header-section:
@@ -197,7 +206,7 @@ fr:
           content: ''
 
   projects-section:
-    exists: true
+    exist: true
     display-mode: "click/scroll/horizontal scroll/"
     objects:
       image-1:
@@ -275,8 +284,12 @@ de:
   nav:
     - title: "Über uns"
       url: "about"
-    - title: "Dienstleistungen"
-      url: "services"
+    - title: "Webentwicklung"
+      url: "webdevelopment-section"
+    - title: "Marken"
+      url: "trademark-section"
+    - title: "Projekte"
+      url: "projects"
     - title: "Kontakt"
       url: "contact"
   header-section:
@@ -324,7 +337,7 @@ de:
           content: ''
 
   projects-section:
-    exists: true
+    exist: true
     display-mode: "click/scroll/horizontal scroll/"
     objects:
       image-1:
@@ -364,7 +377,7 @@ de:
 
   contact-section:
     exist: true
-    title: 'Contact us'
+    title: 'Kontaktieren Sie uns'
     content: >
       Bereit, Ihr nächstes Projekt mit uns zu starten? Super!
       Rufen Sie uns an oder schreiben Sie uns eine E-Mail
