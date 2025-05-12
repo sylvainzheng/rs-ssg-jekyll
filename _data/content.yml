@@ -22,24 +22,20 @@ en:
       
   header-section:
     header-exist: true
-    header-content: "Axone's services tie into your communications process..."
+    header-content: "Site builder based on Jekyll Creative Theme"
     header-button: "Request a service"
 
   about-section:
     exist: true
-    about-title: About us
-    about-content: Axone is a highly flexible niche enterprise which will always help
-      you to find the appropriate IT-solution - on request even in German, French, Italian,
-      English and Spanish. Axone looks back on two decades of activity at the cutting
-      edge of information technology and in the development of the Internet as we know
-      it today.
+    about-title: About the site builder
+    about-content: You can edit the content inside /_data/content.yml, each section has their own editable objects
 
   services-section:
     web-development:
       title: 'Web development services'
       exist: true
-      # Vous pouvez ajouter autant de colonnes que possible tant qu'ils sont nommés avec leur sections respectives
       objects:
+        # Vous pouvez ajouter autant de colonnes que possible tant qu'ils sont nommés avec leur sections respectives
         col-1:
           icon: 'fa fa-4x fa-solid fa-code'
           title: 'Web application'
