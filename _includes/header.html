@@ -5,7 +5,7 @@
 <header>
     <div class="header-content">
         <div class="header-content-inner">
-            <img src="{{ translations.nav-image-light | replace: '_black', '_white' }}" 
+            <img src="{{ translations.nav-image-light | prepend: site.baseurl | prepend: site.url }}"
                  style="object-fit: contain; width: 100%; max-width: 2000vw; height: auto; margin-bottom: 0vw;">
             <hr>
             <p>{{ translations.header-section.header-content }}</p>
