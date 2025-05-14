@@ -36,24 +36,7 @@
                 <div class="row" id="status"></div>
             </div>
         </form>
-        <button id="formTextAreaButton" onclick="formTextAreaMultiline()" class="btn btn-primary">Expand Form</button>
-    </div>
-
-    <script>
-      function formTextAreaMultiline() {
-        var textArea = document.getElementById("message");
-        var formTextAreaButton = document.getElementById("formTextAreaButton");
-
-        if (textArea.style.height != "300px") {
-          textArea.style.height = "300px";
-          formTextAreaButton.innerHTML = "Reduce Form";
-        }
-        else {
-          textArea.style.height = "75px";
-          formTextAreaButton.innerHTML = "Expand Form";
-        }
-      }
-    </script>  
+    </div> 
 </section>
 </div>
 {% endif %}
