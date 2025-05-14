@@ -7,7 +7,7 @@ en:
 
   title: Axone
   nav-image-light: "/img/axone_black.png"
-  nav-image-dark: "img/axone_white.png"
+  nav-image-dark: "/img/axone_white.png"
   nav:
     - title: "About"
       url: "about"
@@ -144,7 +144,7 @@ fr:
 
   title: Axone
   nav-image-light: "/img/axone_black.png"
-  nav-image-dark: "img/axone_white.png"
+  nav-image-dark: "/img/axone_white.png"
   nav:
     - title: "À propos"
       url: "about"
@@ -276,7 +276,7 @@ de:
 
   title: Axone
   nav-image-light: "/img/axone_black.png"
-  nav-image-dark: "img/axone_white.png"
+  nav-image-dark: "/img/axone_white.png"
   nav:
     - title: "Über uns"
       url: "about"

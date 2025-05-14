@@ -9,7 +9,12 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand page-scroll" href="#page-top">
-                <img id="nav-logo" src="{{ site.data.content[page.lang].nav-image-light | replace: '_black', '_white' }}" style="object-fit: contain; height: 3em; padding-bottom: 1.5em; position: relative;">
+                <img
+                    id="nav-logo"
+                    src="{{ site.url }}{{ site.baseurl }}{{ site.data.content[page.lang].nav-image-light }}"
+                    data-img-light="{{ site.url }}{{ site.baseurl }}{{ site.data.content[page.lang].nav-image-light }}"
+                    data-img-dark="{{ site.url }}{{ site.baseurl }}{{ site.data.content[page.lang].nav-image-dark }}"
+                    style="object-fit: contain; height: 3em; padding-bottom: 1.5em; position: relative;">
             </a>
         </div>
 
@@ -52,18 +57,16 @@
     </div><!-- /.container-fluid -->
 
     <script>
-    window.onscroll = function changeNavImage() {
-        const url = "{{ site.url }}";
-        const baseUrl = "{{ site.baseurl }}";
-        const imgLight = "{{ site.data.content.en.nav-image-light }}";
-        const imgDark = "{{ site.data.content.en.nav-image-dark }}";
+        window.onscroll = function changeNavImage() {
+            const navLogo = document.getElementById("nav-logo");
+            const imgLight = navLogo.getAttribute("data-img-light");
+            const imgDark = navLogo.getAttribute("data-img-dark");
 
-        if (window.scrollY >= 100) {
-            document.getElementById("nav-logo").src = url + baseUrl + imgDark;
+            if (window.scrollY >= 100) {
+                navLogo.src = imgDark;
+            } else {
+                navLogo.src = imgLight;
+            }
         }
-        else {
-            document.getElementById("nav-logo").src = url + baseUrl + imgLight;
-        }
-    }
     </script>
 </nav>
