@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="row no-gutter" style="background-color:#222;">
 
-                {% assign services = site.data.content.en.projects-section.objects %}
+                {% assign services = site.data.content.en.projects.objects %}
                 {% assign items_per_row = 3 %}
                 {% assign total_items = services.size %}
                 {% assign row_modulator = total_items | modulo: items_per_row %}

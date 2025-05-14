@@ -10,10 +10,10 @@
     <header>
         <img src="{{ site.data.content[page.lang].nav-image-light }}" alt="{{ site.data.content[page.lang].title }}">
         
-        {% if site.data.content[page.lang].header-section.header-exist %}
+        {% if site.data.content[page.lang].header.header-exist %}
         <div class="header-content">
-            <p>{{ site.data.content[page.lang].header-section.header-content }}</p>
-            <button>{{ site.data.content[page.lang].header-section.header-button }}</button>
+            <p>{{ site.data.content[page.lang].header.header-content }}</p>
+            <button>{{ site.data.content[page.lang].header.header-button }}</button>
         </div>
         {% endif %}
     </header>

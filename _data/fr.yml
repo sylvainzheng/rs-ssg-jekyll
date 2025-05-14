@@ -8,23 +8,23 @@ nav:
 - title: "Développement web"
   url: "webdevelopment-section"
 - title: "Protection de marque"
-  url: "trademark-section"
+  url: "trademark"
 - title: "Projets"
   url: "projects"
 - title: "Contact"
   url: "contact"
 
-header-section:
+header:
   header-exist: true
   header-content: Les services d'Axone s'intègrent à vos processus de communication et vous aident à transmettre le bon message à votre public.
   header-button: Demander un service
 
-about-section:
+about:
   exist: true
   about-title: À propos
   about-content: Positionnée sur un segment de marché ciblé, Axone se distingue par son extrême flexibilité, notre société trouve toujours la solution informatique que vous recherchez et peut vous la fournir en allemand, français, italien, anglais et espagnol.
 
-services-section:
+services:
   web-development:
     title: 'Nos services de développement web'
     exist: true
@@ -59,7 +59,7 @@ services-section:
         title: 'Nouveau TLDs'
         content: ''
 
-projects-section:
+projects:
   exists: true
   display-mode: "click/scroll/horizontal scroll/"
   objects:
@@ -90,7 +90,7 @@ projects-section:
 
 
       
-form-section:
+form:
   exist: true
   title: Demander un service
   fname: 'Prénom'
@@ -98,7 +98,7 @@ form-section:
   email: 'Adresse mail'
   message: 'Message'
 
-contact-section:
+contact:
   exist: true
   title: 'Nous contacter'
   content: >

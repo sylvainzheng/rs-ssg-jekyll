@@ -12,25 +12,25 @@ en:
     - title: "About"
       url: "about"
     - title: "Web development"
-      url: "webdevelopment-section"
+      url: "webdevelopment"
     - title: "Trademark"
-      url: "trademark-section"
+      url: "trademark"
     - title: "Projects"
       url: "projects"
     - title: "Contact"
       url: "contact"
       
-  header-section:
+  header:
     header-exist: true
     header-content: "Site builder based on Jekyll Creative Theme"
     header-button: "Request a service"
 
-  about-section:
+  about:
     exist: true
     about-title: About the site builder
     about-content: You can edit the content inside /_data/content.yml, each section has their own editable objects
 
-  services-section:
+  services:
     web-development:
       title: 'Web development services'
       exist: true
@@ -68,7 +68,7 @@ en:
           title: 'New TLDs'
           content: ''
 
-  projects-section:
+  projects:
     exist: true
     display-mode: "click/scroll/horizontal scroll/"
     objects:
@@ -99,7 +99,7 @@ en:
 
 
         
-  form-section:
+  form:
     exist: true
     title: Request a service
     fname: 'First name'
@@ -107,7 +107,7 @@ en:
     email: 'E-mail'
     message: 'Message'
 
-  contact-section:
+  contact:
     exist: true
     title: 'Contact us'
     content: >
@@ -149,24 +149,24 @@ fr:
     - title: "À propos"
       url: "about"
     - title: "Développement web"
-      url: "webdevelopment-section"
+      url: "webdevelopment"
     - title: "Trademark"
       url: "Marques"
     - title: "Projets"
       url: "projects"
     - title: "Contact"
       url: "contact"
-  header-section:
+  header:
     header-exist: true
     header-content: "Les services d'Axone s'intègrent à vos processus..."
     header-button: "Demander un service"
 
-  about-section:
+  about:
     exist: true
     about-title: À propos
     about-content: Positionnée sur un segment de marché ciblé, Axone se distingue par son extrême flexibilité, notre société trouve toujours la solution informatique que vous recherchez et peut vous la fournir en allemand, français, italien, anglais et espagnol.
 
-  services-section:
+  services:
     web-development:
       title: 'Nos services de développement web'
       exist: true
@@ -201,7 +201,7 @@ fr:
           title: 'Nouveau TLDs'
           content: ''
 
-  projects-section:
+  projects:
     exist: true
     display-mode: "click/scroll/horizontal scroll/"
     objects:
@@ -232,7 +232,7 @@ fr:
 
 
         
-  form-section:
+  form:
     exist: true
     title: Demander un service
     fname: 'Prénom'
@@ -240,7 +240,7 @@ fr:
     email: 'Adresse mail'
     message: 'Message'
 
-  contact-section:
+  contact:
     exist: true
     title: 'Nous contacter'
     content: >
@@ -281,24 +281,24 @@ de:
     - title: "Über uns"
       url: "about"
     - title: "Webentwicklung"
-      url: "webdevelopment-section"
+      url: "webdevelopment"
     - title: "Marken"
-      url: "trademark-section"
+      url: "trademark"
     - title: "Projekte"
       url: "projects"
     - title: "Kontakt"
       url: "contact"
-  header-section:
+  header:
     header-exist: true
     header-content: "Axone unterstützt Ihre Kommunikation..."
     header-button: "Eine Dienstleistung anfordern"
 
-  about-section: 
+  about: 
     exist: true
     about-title: Über uns
     about-content: Axone ist ein äusserst flexibler Nischenbetrieb, der immer die passende Informatiklösung findet und diese auch gleich noch auf Deutsch, Französisch, Italienisch, Englisch und Spanisch.
 
-  services-section:
+  services:
     web-development:
       title: 'Webentwicklung'
       exist: true
@@ -332,7 +332,7 @@ de:
           title: 'Neu TLDs'
           content: ''
 
-  projects-section:
+  projects:
     exist: true
     display-mode: "click/scroll/horizontal scroll/"
     objects:
@@ -363,7 +363,7 @@ de:
 
 
         
-  form-section:
+  form:
     exist: true
     title: Eine Dienstleistung anfordern
     fname: 'Vorname'
@@ -371,7 +371,7 @@ de:
     email: 'E-mail'
     message: 'Nachricht'
 
-  contact-section:
+  contact:
     exist: true
     title: 'Kontaktieren Sie uns'
     content: >

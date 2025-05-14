@@ -1,16 +1,16 @@
 {% assign lang = include.language | default: page.lang | default: 'en' %}
 {% assign translations = site.data.content[lang] %}
 
-{% if translations.header-section.header-exist %}
+{% if translations.header.header-exist %}
 <header>
     <div class="header-content">
         <div class="header-content-inner">
             <img src="{{ translations.nav-image-dark | prepend: site.baseurl | prepend: site.url }}"
                  style="object-fit: contain; width: 100%; max-width: 2000vw; height: auto; margin-bottom: 0vw;">
             <hr>
-            <p>{{ translations.header-section.header-content }}</p>
+            <p>{{ translations.header.header-content }}</p>
             <a href="#form" class="btn btn-primary btn-xl page-scroll">
-                {{ translations.header-section.header-button }}
+                {{ translations.header.header-button }}
             </a>
         </div>
     </div>

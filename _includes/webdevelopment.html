@@ -1,20 +1,20 @@
 {% assign lang = include.language | default: page.lang | default: 'en' %}
 {% assign translations = site.data.content[lang] %}
 
-{% if translations.services-section.web-development.exist %}
+{% if translations.services.web-development.exist %}
 <!-- Web development services -->
-<section id="webdevelopment-section">
+<section id="webdevelopment">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">{{ translations.services-section.web-development.title }}</h2>
+        <h2 class="section-heading">{{ translations.services.web-development.title }}</h2>
         <hr class="primary">
       </div>
     </div>
   </div>
 
   <div class="container">
-    {% assign services = translations.services-section.web-development.objects %}
+    {% assign services = translations.services.web-development.objects %}
     {% assign items_per_row = 3 %}
     {% assign total_items = services.size %}
     {% assign row_modulator = total_items | modulo: items_per_row %}

@@ -1,13 +1,13 @@
 {% assign lang = include.language | default: page.lang | default: 'en' %}
 {% assign translations = site.data.content[lang] %}
 
-{% if translations.form-section.exist %}
+{% if translations.form.exist %}
 <div class="bg-dark" style="z-index: 200;">
 <section id="form">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">{{ translations.form-section.title }}</h2>
+                <h2 class="section-heading">{{ translations.form.title }}</h2>
                 <hr class="primary">
             </div>
         </div>
@@ -16,19 +16,19 @@
         <form action="https://formspree.io/f/mrbpvbja" method="POST" id="contact-form">
             <div class="row text-center">
                 <div class="col-lg-6 col-md-8 text-center">
-                        <label for="fname">{{ translations.form-section.fname }}:</label><br>
+                        <label for="fname">{{ translations.form.fname }}:</label><br>
                         <input type="text" id="fname" name="fname" value="" class="form-control"><br>
                 </div>
                 <div class="col-lg-6 col-md-8 text-center">
-                        <label for="lname">{{ translations.form-section.lname }}:</label><br>
+                        <label for="lname">{{ translations.form.lname }}:</label><br>
                         <input type="text" id="lname" name="lname" value="" class="form-control"><br>
                 </div>
 
                 <div class="col-lg-12 col-md-4 text-center">
-                    <label for="mailadr">{{ translations.form-section.email }}:</label><br>
+                    <label for="mailadr">{{ translations.form.email }}:</label><br>
                     <input type="email" id="email" name="email" value="" class="form-control"><br>
             
-                    <label for="message">{{ translations.form-section.message }}:</label><br>
+                    <label for="message">{{ translations.form.message }}:</label><br>
                     <textarea id="message" name="message" class="form-control" style="height: 75px;"></textarea><br>
             
                     <input type="submit" value="Submit" class="btn btn-primary">
