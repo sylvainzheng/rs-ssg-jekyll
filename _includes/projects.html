@@ -41,7 +41,7 @@
 
                     <div class="{{col_class}}" >
                         <a href="{{item[1].url}}" class="portfolio-box">
-                            <img src="{{item[1].source}}" class="img-responsive" alt="{{item[1].alt}}">
+                            <img src="{{item[1].source | prepend: site.baseurl | prepend: site.url }}" class="img-responsive" alt="{{item[1].alt}}">
                             <div class="portfolio-box-caption">
                                 <div class="portfolio-box-caption-content">
                                     <div class="project-name">{{item[1].name}}</div>
