@@ -73,29 +73,29 @@ en:
     display-mode: "click/scroll/horizontal scroll/"
     objects:
       image-1:
-        source: "/img/header.jpg"
+        source: "img/header.jpg"
         url: ""
         alt: ""
-        category: "A"
-        name: "AAAAA"
+        category: "Category 1"
+        name: "Image 1"
       image-2:
-        source: "/img/header.jpg"
+        source: "img/header.jpg"
         url: ""
         alt: ""
-        category: "A"
-        name: "BBBBB"
+        category: "Category 2"
+        name: "Image 2"
       image-3:
-        source: "/img/header.jpg"
+        source: "img/header.jpg"
         url: ""
         alt: ""
-        category: "A"
-        name: "CCCCC"
+        category: "Category 3"
+        name: "Image 3"
       image-4:
-        source: "/img/header.jpg"
+        source: "img/header.jpg"
         url: ""
         alt: ""
-        category: "A"
-        name: "CCCCC"
+        category: "Category 4"
+        name: "Image 4"
 
 
         
@@ -210,26 +210,26 @@ fr:
         source: "img/header.jpg"
         url: ""
         alt: ""
-        category: "A"
-        name: "AAAAA"
+        category: "Category 1"
+        name: "Image 1"
       image-2:
         source: "img/header.jpg"
         url: ""
         alt: ""
-        category: "A"
-        name: "BBBBB"
+        category: "Category 2"
+        name: "Image 2"
       image-3:
         source: "img/header.jpg"
         url: ""
         alt: ""
-        category: "A"
-        name: "CCCCC"
+        category: "Category 3"
+        name: "Image 3"
       image-4:
         source: "img/header.jpg"
         url: ""
         alt: ""
-        category: "A"
-        name: "CCCCC"
+        category: "Category 4"
+        name: "Image 4"
 
 
         
@@ -342,26 +342,26 @@ de:
         source: "img/header.jpg"
         url: ""
         alt: ""
-        category: "A"
-        name: "AAAAA"
+        category: "Category 1"
+        name: "Image 1"
       image-2:
         source: "img/header.jpg"
         url: ""
         alt: ""
-        category: "A"
-        name: "BBBBB"
+        category: "Category 2"
+        name: "Image 2"
       image-3:
         source: "img/header.jpg"
         url: ""
         alt: ""
-        category: "A"
-        name: "CCCCC"
+        category: "Category 3"
+        name: "Image 3"
       image-4:
         source: "img/header.jpg"
         url: ""
         alt: ""
-        category: "A"
-        name: "CCCCC"
+        category: "Category 4"
+        name: "Image 4"
 
 
         
