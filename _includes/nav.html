@@ -63,9 +63,9 @@
             const imgDark = navLogo.getAttribute("data-img-dark");
 
             if (window.scrollY >= 100) {
-                navLogo.src = imgDark;
-            } else {
                 navLogo.src = imgLight;
+            } else {
+                navLogo.src = imgDark;
             }
         }
     </script>
