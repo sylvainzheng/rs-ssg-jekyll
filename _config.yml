@@ -1,5 +1,7 @@
 title: Axone Multilingual
 languages: ["en", "fr", "de"]
 default_language: "en"
-url: "http://localhost:4000"
+url: "https://sylvainzheng.github.io"
+baseurl: "/rs-ssg-jekyll"  # leave baseurl empty for root-level sites
+
 permalink: pretty

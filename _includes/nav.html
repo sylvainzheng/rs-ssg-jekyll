@@ -28,7 +28,7 @@
                         {% for lang in available_langs %}
                             {% if site.data.content[lang] %}
                                 <li>
-                                    <a href="/{{ lang }}/" class="{% if current_lang == lang %}active{% endif %}" data-lang="{{ lang }}">
+                                    <a href="{{ lang }}/" class="{% if current_lang == lang %}active{% endif %}" data-lang="{{ lang }}">
                                         {{ lang | upcase }}
                                     </a>
                                 </li>
