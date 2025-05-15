@@ -28,7 +28,7 @@ en:
   about:
     exist: true
     about-title: About the site builder
-    about-content: You can edit the content inside /_data/content.yml, each section has their own editable objects
+    about-content: You can edit the content inside /_data/content.yml, each section has their own editable objects and you can choose the number of displayed sections using 'false' or 'true' in the exist field.
 
   services:
     web-development:
@@ -38,22 +38,22 @@ en:
         # Vous pouvez ajouter autant de colonnes que possible tant qu'ils sont nommés avec leur sections respectives
         col-1:
           icon: 'fa fa-4x fa-solid fa-code'
-          title: 'Web application'
+          title: 'This icon is from Font Awesome'
           content: >
-            Our web solutions are tailor-made to provide you with all the tools indispensable 
-            for the fulfilment of your projects. We propose evolutionary and user-friendly applications, 
-            which we take care to adapt according to your needs.
+            You can add any number of columns as long as they are named with their respective number.
+            You can also remove the icon and the title if you want to keep only the content.
         col-2:
           icon: 'fa fa-4x fa-regular fa-paper-plane'
-          title: 'Content management'
+          title: 'This icon is from Font Awesome'
           content: >
-            The creation of your visual identity, the development of functionalities related to your website, 
-            implementation of a content management tool so as to ensure complete autonomy and our advice for optimal referencing of your website, 
-            are all key stages in the creation of an effective and dynamic website.
+            You can add any number of columns as long as they are named with their respective number.
+            You can also remove the icon and the title if you want to keep only the content.
         col-3:
           icon: 'fa fa-4x fa-solid fa-laptop'
-          title: 'Web development'
-          content: 'Axone also makes available to you personalized hosting solutions as well as providing advice on management of your domain names.'
+          title: 'This icon is from Font Awesome'
+          content: >
+            You can add any number of columns as long as they are named with their respective number.
+            You can also remove the icon and the title if you want to keep only the content.
           
     trademark:
       title: 'Trademark protection services'
